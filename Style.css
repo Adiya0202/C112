@@ -1,0 +1,32 @@
+body{
+    background: radial-gradient(yellow 0%, red 100%);
+    border: 10px double black;
+    font-family: 'Yeon Sung', cursive;
+}
+.heading{
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+span{
+    font-size: 30px;
+}
+#camera, #pic{
+    border:5px dotted coral;
+    height: 290px;
+    width: 400px;
+}
+p{
+    color:#000080;
+    font-weight:bolder;
+    font-size:20px;
+}
+button{
+    margin-top:10px;
+}
+#camera{
+    transform: rotateY(180deg);
+     -webkit-transform:rotateY(180deg);
+}
+.emotion_name,.emoji{
+    font-size: 30px;
+}
